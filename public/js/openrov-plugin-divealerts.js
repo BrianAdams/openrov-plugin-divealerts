@@ -146,7 +146,7 @@
     $.get(jsFileLocation + '../alerttemplate.html',function(data){
       template = data;
     });
-    $.getScript(jsFileLocation + '../../bower_components/bootstrap.growl/dist/bootstrap-growl.min.js',function(){
+    $.getScript(jsFileLocation + 'plugin_components/bootstrap.growl/dist/bootstrap-growl.min.js',function(){
       console.log("loaded");
       $.growl("The divealert plugin has loaded and is now ready to provide feedback!",{element: '#video-container', delay:1000, template:template, type:"info"});
     });
