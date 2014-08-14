@@ -1,0 +1,14 @@
+{
+  "name": "openrov-plugin-divealerts",
+  "description": "real-time alerts based on telemetry data analysis",
+  "version": "0.0.0",
+  "homepage": "",
+  "main": "public/js/divealerts.js",
+  "keywords": [
+    "openrov",
+    "plugin"
+  ],
+  "dependencies": {
+    "bootstrap.growl": "~2.0.0"
+  }
+}
