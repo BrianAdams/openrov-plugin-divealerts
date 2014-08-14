@@ -137,7 +137,7 @@
       },3000);
     };
     this.disable = function () {
-      clearInterval(self.alertloop);
+      clearInterval(this.alertloop);
     };
 
     //this technique forces relative path to the js file instead of the excution directory
